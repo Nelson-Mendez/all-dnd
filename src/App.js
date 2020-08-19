@@ -1,26 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Splash from './components/splash.jsx'
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Splash />
+      <div className="content" >
+        <aside className="sidebar">
+          <ul className="sidebar__list">
+            <li>Races</li>
+            <li>Backgrounds</li>
+            <li>Classes</li>
+            <li>Spells</li>
+            <li>Feats</li>
+          </ul>
+        </aside>  
+        
+        <input />
+      </div>
     </div>
-  );
+  )
 }
 
 export default App;
