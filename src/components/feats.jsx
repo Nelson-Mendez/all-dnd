@@ -1,4 +1,5 @@
 import React from 'react';
+import {thefeats} from './feats.js';
 
 export default function Feats() {
   return(
@@ -13,7 +14,14 @@ export default function Feats() {
         </tr>
       </thead>
       <tbody>
-        {}
+        {thefeats.map(feat => (
+          <tr>
+            <td>{feat.name}</td>
+            <td>{feat.prereq}</td>
+            <td>{feat.description}</td>
+            <td>{feat.source}</td>
+          </tr>
+        ))}
       </tbody>
     </table>
   )
