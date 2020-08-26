@@ -5,6 +5,8 @@ import Tab from 'react-bootstrap/Tab'
 import Classes from './components/classes.jsx'
 import Races from './components/races.jsx'
 import Spells from './components/spells.jsx'
+import Backgrounds from './components/backgrounds.jsx'
+import Feats from './components/feats.jsx'
 import salt from './data/Salty.png'
 import './App.scss';
 
@@ -23,7 +25,7 @@ function App() {
           </Tab>        
           
           <Tab eventKey="Backgrounds" title="Backgrounds">
-            <p>heres a thing</p>
+            <Backgrounds />
           </Tab>        
           
           <Tab eventKey="Spells" title="Spells">
@@ -31,7 +33,7 @@ function App() {
           </Tab>        
           
           <Tab eventKey="Feats"title="Feats">
-            <p>heres a thing</p>
+            <Feats />
           </Tab>        
         </Tabs>
       </div>
