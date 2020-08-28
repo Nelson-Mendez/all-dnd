@@ -1,6 +1,7 @@
 import React from 'react';
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
+import Barbarian from './classes/barbarian'
 import './classes.scss'
 
 export default function Classes() {
@@ -13,15 +14,9 @@ export default function Classes() {
             and a thorough knowledge of the skills of combat. They are well acquainted with death, 
             both meting it out and staring it defiantly in the face.</p>
         </Tab>
-
-        <Tab eventKey="barbarian" title="Barbarian"> 
-          <h2>The Barbarian</h2>
-          <p>For some, their rage springs from a communion with fierce animal spirits. 
-            Others draw from a roiling reservoir of anger at a world full of pain. 
-            For every barbarian, rage is a power that fuels not just a battle frenzy but also uncanny 
-            reflexes, resilience, and feats of strength.</p>
+        <Tab eventkey="barbarian" title="Barbarian">
+          <Barbarian />
         </Tab>
-
         <Tab eventKey="ranger" title="Ranger"> 
           <h2>The Ranger</h2>
           <p>Far from the bustle of cities and towns, past the hedges that shelter the most distant farms from the terrors of 
