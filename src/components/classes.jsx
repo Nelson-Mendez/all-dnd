@@ -1,7 +1,8 @@
 import React from 'react';
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
-import Barbarian from './classes/barbarian'
+import ClassBarbarian from './classes/barbarian'
+import { classes } from '../data/classes.js'
 import './classes.scss'
 
 export default function Classes() {
@@ -14,9 +15,11 @@ export default function Classes() {
             and a thorough knowledge of the skills of combat. They are well acquainted with death, 
             both meting it out and staring it defiantly in the face.</p>
         </Tab>
-        <Tab eventkey="barbarian" title="Barbarian">
-          <Barbarian />
+
+        <Tab eventKey="barbarian" title="Barbarian"> 
+          <ClassBarbarian classInfo={classes} />
         </Tab>
+
         <Tab eventKey="ranger" title="Ranger"> 
           <h2>The Ranger</h2>
           <p>Far from the bustle of cities and towns, past the hedges that shelter the most distant farms from the terrors of 

@@ -1,32 +1,15 @@
 import React from 'react';
-import Tabs from 'react-bootstrap/Tabs'
-import Tab from 'react-bootstrap/Tab'
-import { classes } from '../../data/classes.js'
+import LevelTable from '../levelTable'
+import Features from '../features'
 
 
-export default function Barbarian() {
+export default function ClassBarbarian(props) {
   return(
     <div className="classes__barbarian">
-      <h2>{classes.name}</h2>
-      <thead>
-        <tr>
-          <th>Level</th>
-          <th>Features</th>
-          <th>Proficiency</th>
-          <th>Rages</th>
-          <th>Rage Bonus</th>
-        </tr>
-      </thead>
-      
-      {classes.table.map(level => (
-        <tr>
-          <td>{level.level}</td>
-          <td>{level.features}</td>
-          <td>{level.proficiency}</td>
-          <td>{level.rages}</td>
-          <td>{level.damage}</td>
-        </tr>
-      ))}
+      <h2>{props.classInfo.name}</h2>
+      <h4>{props.classInfo.description}</h4>
+      <LevelTable tableContents={props.classInfo.table}/>
+      <Features featureContents={props.classInfo.class_features} />
     </div>
   )
 }
