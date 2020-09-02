@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <Splash />
       <div className="content">
-        <Tabs mountOnEnter="true">
+        <Tabs>
           <Tab eventKey="Classes" title="Classes" src={salt}>
             <Classes />
           </Tab>        
