@@ -2,7 +2,7 @@ import React from 'react';
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
 import ClassBarbarian from './classes/barbarian'
-import { classes } from '../data/classes.js'
+import ClassFighter from './classes/fighter'
 import './classes.scss'
 
 export default function Classes() {
@@ -10,14 +10,11 @@ export default function Classes() {
     <div className="classContent">
       <Tabs >
         <Tab eventKey="fighter" title="Fighter"> 
-          <h2>The Fighter</h2>
-          <p>Fighters share an unparalleled mastery with weapons and armor, 
-            and a thorough knowledge of the skills of combat. They are well acquainted with death, 
-            both meting it out and staring it defiantly in the face.</p>
+          <ClassFighter />
         </Tab>
 
         <Tab eventKey="barbarian" title="Barbarian"> 
-          <ClassBarbarian classInfo={classes} />
+          <ClassBarbarian />
         </Tab>
 
         <Tab eventKey="ranger" title="Ranger"> 

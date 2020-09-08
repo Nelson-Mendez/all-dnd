@@ -1,4 +1,4 @@
-const classes = {
+const barbarianClass = {
     'name': 'The Barbarian',
     'description': "For some, their rage springs from a communion with fierce animal spirits. Others draw from a roiling reservoir of anger at a world full of pain. For every barbarian, rage is a power that fuels not just a battle frenzy but also uncanny reflexes, resilience, and feats of strength.",
     'table': [
@@ -160,7 +160,7 @@ const classes = {
     },
     'Hits': {
       'Dice': '1d12 per Barbarian level',
-      'First Level': '12 + Constituion Modifier',
+      'First Level': '12 + Constitution Modifier',
       'Higher Levels': '1d12 (7) + Constitution Modifier per Barbarian level after 1st'
     },
     'Proficiencies': {
@@ -197,4 +197,4 @@ const classes = {
 }
 
 
-export {classes};
+export { barbarianClass };
