@@ -1,8 +1,10 @@
 import React from 'react';
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
+import Class from './class'
 import ClassBarbarian from './classes/barbarian'
 import ClassFighter from './classes/fighter'
+import { monkClass } from '../data/monk'
 import './classes.scss'
 
 export default function Classes() {
@@ -24,10 +26,7 @@ export default function Classes() {
         </Tab>
 
         <Tab eventKey="monk" title="Monk"> 
-          <h2>The Monk</h2>
-          <p>Monks are united in their ability to magically harness the energy that flows in their bodies. 
-            Whether channeled as a striking display of combat prowess or a subtler 
-            focus of defensive ability and speed, this energy infuses all that a monk does.</p>
+          <Class info={monkClass} />
         </Tab>
 
         <Tab eventKey="paladin" title="Paladin"> 

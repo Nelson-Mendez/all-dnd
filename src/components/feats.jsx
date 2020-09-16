@@ -1,5 +1,5 @@
 import React from 'react';
-import { thefeats } from './feats.js';
+import { thefeats } from '../data/feats.js';
 
 export default function Feats() {
 

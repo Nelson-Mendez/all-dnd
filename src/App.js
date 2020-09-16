@@ -2,7 +2,7 @@ import React from 'react';
 import Splash from './components/splash.jsx'
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
-import Classes from './components/classes.jsx'
+import Classes from './components/classesTab.jsx'
 import Races from './components/races.jsx'
 import Spells from './components/spells.jsx'
 import Backgrounds from './components/backgrounds.jsx'
