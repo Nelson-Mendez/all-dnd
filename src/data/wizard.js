@@ -1,6 +1,114 @@
 const wizardClass = {
   "name": "The Wizard",
   "description": "Wizards are supreme magic-users, defined and united as a class bny the spells they cast. Drawing on the subtle weave of magic that permeates the cosmos, wizards cast spells of explosive fire, arcing lightning, sublte deception, brute-force mind control, and much more.",
+  "spellcasting": {
+    "Cantrips": "At 1st level, you know three cantrips of your choice from the wizard spell list. You learn additional wizard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Wizard table.",
+    "Ritual Casting": "You can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared.",
+    "Spellcasting Focus": "You can use an arcane focus as a spellcasting focus for your wizard spells.",
+    "Learning Spells of 1st Level and Higher": "Each time you gain a wizard level, you can add two wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots, as shown on the Wizard table. On your adventures, you might find other spells that you can add to your spellbook.",
+    "table": [
+    {
+      "Level": "1st",
+      "Proficiency": "2",
+      "Features": "Spellcasting, Arcane Recovery"
+    },
+    {
+      "Level": "2nd",
+      "Proficiency": "2",
+      "Features": "Arcane Tradition"
+    },
+    {
+      "Level": "3rd",
+      "Proficiency": "2",
+      "Features": ""
+    },
+    {
+      "Level": "4th",
+      "Proficiency": "2",
+      "Features": "Ability Score Improvement"
+    },
+    {
+      "Level": "5th",
+      "Proficiency": "3",
+      "Features": ""
+    },
+    {
+      "Level": "6th",
+      "Proficiency": "3",
+      "Features": "Arcane Tradition Feature"
+    },
+    {
+      "Level": "7th",
+      "Proficiency": "3",
+      "Features": ""
+    },
+    {
+      "Level": "8th",
+      "Proficiency": "3",
+      "Features": "Ability Score Improvement"
+    },
+    {
+      "Level": "9th",
+      "Proficiency": "4",
+      "Features": ""
+    },
+    {
+      "Level": "10th",
+      "Proficiency": "4",
+      "Features": "Arcane Tradition Feature"
+    },
+    {
+      "Level": "11th",
+      "Proficiency": "4",
+      "Features": ""
+    },
+    {
+      "Level": "12th",
+      "Proficiency": "4",
+      "Features": "Ability Score Improvement"
+    },
+    {
+      "Level": "13th",
+      "Proficiency": "5",
+      "Features": ""
+    },
+    {
+      "Level": "14th",
+      "Proficiency": "5",
+      "Features": "Arcane Tradition Feature"
+    },
+    {
+      "Level": "15th",
+      "Proficiency": "5",
+      "Features": ""
+    },
+    {
+      "Level": "16th",
+      "Proficiency": "5",
+      "Features": "Ability Score Improvement"
+    },
+    {
+      "Level": "17th",
+      "Proficiency": "6",
+      "Features": ""
+    },
+    {
+      "Level": "18th",
+      "Proficiency": "6",
+      "Features": "Spell Mastery"
+    },
+    {
+      "Level": "19th",
+      "Proficiency": "6",
+      "Features": "Ability Score Improvement"
+    },
+    {
+      "Level": "20th",
+      "Proficiency": "6",
+      "Features": "Signature Spells"
+    } 
+  ],
+  },
   "table" : [
     {
       "Level": "1st",
